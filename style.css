@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Arcade_In'; /*a name to be used later*/
+    src: url('fonts/8_bit_arcade/8-bit_Arcade_In.ttf'); /*URL to font*/
+}
+
+html, 
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #FFFB73;
+    display: flex;
+    flex-direction: column;
+  }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0.2;
+}
+
+#title {
+    font-size: 120px;
+    font-weight: 100;
+    color: #5CD2E6;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 100px;
+}
+
+.results {
+    margin: 60px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, 
+h3 {
+    margin: 20px;
+    border: 0;
+    font-family: "Arcade_In", Helvetica, sans-serif;
+    color: #B15EFF;
+}
+
+#choices {
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    padding: 0 0 7px 0;
+    vertical-align: top;
+    background-size: 100%;
+    border: inherit;
+    border-radius: 10px;
+    background-color: #F16767;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #F16767;
+    box-shadow: 0 10px #814141;
+    transform: translateY(10px);
+}
+
+img {
+    height: 100%;
+}
+  
+
+footer {
+    background-color: #FFA33C;
+    color: #FFFB73;
+    font-weight: 600;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-grow: 0.05;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+
+a {
+    color: #FFFB73;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* This class is utilized in the script.js file */
+.color-result {
+    color: #1BF5AF;
+}
+
+/* This media query is used for responsiveness */ 
+@media (max-width: 600px) {
+    #title {
+        font-size: 50px;
+    }
+    #choices {
+        flex-direction: column;
+    }
+  }
