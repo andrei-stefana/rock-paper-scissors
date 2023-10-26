@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    >
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
-</head>
-<body>
-    <h1>Rock Paper Scissors</h1>
-</body>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Rock Paper Scissors 8-Bit</h1>
+    </header>
+    <main>
+      <div class="results">
+        <h1>Choose your weapon</h1>
+        <h3>First to score 5 points wins the game</h3>
+      </div>
+      <div id="choices">
+        <button class="play-btn" data-choice="rock">
+          <img src="images/rock.png" alt="A rock">
+        </button>
+        <button class="play-btn" data-choice="paper">
+          <img src="images/paper.png" alt="A piece of paper">
+        </button>
+        <button class="play-btn" data-choice="scissors">
+          <img src="images/scissors.png" alt="Some scissors">
+        </button>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023 andrestef</p>
+      <a
+        href="https://github.com/andrestef"
+        class="fa fa-github"
+        style="font-size: 24px"
+      ></a>
+    </footer>
+  </body>
 </html>
