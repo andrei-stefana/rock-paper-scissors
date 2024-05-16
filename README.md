@@ -10,7 +10,7 @@ This project is based on an assignment from "The Odin Project" (https://www.theo
 
 ## Link To Preview
 
-https://andrestef.github.io/rock-paper-scissors/
+https://an3ist.github.io/rock-paper-scissors/
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -26,4 +26,4 @@ Dieses Projekt basiert auf einer Aufgabe von "The Odin Project" (https://www.the
 
 ## Link zur Vorschau   
 
-https://andrestef.github.io/rock-paper-scissors/
+https://an3ist.github.io/rock-paper-scissors/
